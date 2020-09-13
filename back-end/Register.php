@@ -8,7 +8,6 @@ if (isset($_POST)) {
 
     $password = $_POST["password"];
     $retype_password = $_POST["repeat_password"];
-    var_dump($username, $password, $retype_password);
 
     $sql = "INSERT INTO users (username, password, retype_password) 
             VALUES (:username, :password,  :retype_password)";
