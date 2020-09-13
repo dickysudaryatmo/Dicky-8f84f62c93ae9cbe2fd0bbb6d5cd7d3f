@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"4.8.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tes_mkm"},
+{"type":"table","name":"users","database":"tes_mkm","data":
+[
+{"id":"1","username":"test","password":"test","retype_password":"test","time_login":"2020-09-13 13:13:37.557451"},
+{"id":"2","username":"testing1","password":"testing1","retype_password":"testing1","time_login":"2020-09-13 13:25:30.520879"},
+{"id":"3","username":"testing2","password":"testing2","retype_password":"testing2","time_login":"2020-09-13 13:27:15.976492"},
+{"id":"4","username":"testing4","password":"testing4","retype_password":"testing4","time_login":"2020-09-13 13:27:47.497356"},
+{"id":"5","username":"test3","password":"test3","retype_password":"tes3","time_login":"2020-09-13 13:33:08.000511"},
+{"id":"6","username":"test41","password":"tes1","retype_password":"tes1","time_login":"2020-09-13 13:35:26.455446"},
+{"id":"7","username":"ts","password":"te","retype_password":"te","time_login":"2020-09-13 13:36:49.504320"},
+{"id":"8","username":"test539","password":"test","retype_password":"test","time_login":"2020-09-13 13:39:42.521242"}
+]
+}
+]

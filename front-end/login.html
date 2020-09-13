@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <form action="/back-end/Login.php" id="login" method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="username">Username: </label>
+                                    <input type="text" class="form-control" name="username" id="username">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="username">Password: </label>
+                                    <input type="password" class="form-control" name="password" id="password">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="submit" id="submitLogin" class="btn btn-primary">Login</button>
+                                </div>
+
+                            </div>
+
+                        </form>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="btn btn-success" id="registrasi">Registrasi</button>
+                            </div>
+                        </div>
+                        <!-- <a href="register.php" class="btn btn-success">Registrasi</a> -->
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="./css/bootstrap/bootstrap.min.js"></script>
+<script src="./js/jquery/jquery-3.5.1.min.js"></script>
+<script src="./js/custom.js"></script>
+</html>
